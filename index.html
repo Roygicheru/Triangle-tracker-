@@ -3,9 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>Triangle tracker</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-
+    <div class="outer-container">
+          <section>
+              <h1 id="header">Triangle Tracker</h1>
+                <div class="container">
+                  <div style="height:30px;" class="spacer-1"></div>
+                    <div class="form-div">
+                      <form  id="triangle-tracker" action="index.html" method="post">
+                        <div class="form-group">
+                            <label for="a">Enter side one (a) </label>
+                            <input id="a" type="text"><br>
+                            <label for="b">Enter the second side (b) </label>
+                            <input id="b" type="text"><br>
+                            <label for="c">Enter the third side (c) </label>
+                            <input id="c" type="text">
+                          </div>
+                            <div style="height:30px;" class="spacer-1"></div>
+                          <button type="submit" style="height:20px; width:100px;" class="btn btn-sm btn-primary">Process</button>
+                      </form>
+                  </div>
+              <div style="height:30px;"class="spacer-2"></div>
+              <div class="answer">
+                <p id="result"></p>
+              </div>
+            </div>
+          </section>
+      <script src="js/scripts.js"></script>
   </body>
+</div>
 </html>

@@ -1,0 +1,43 @@
+
+/*
+    Created on : Feb 8th, 2019, 8:39:38 PM
+    Author     : Peter Wachira
+*/
+html body {
+    /* margin: 0;
+    padding: 0; */
+    background-image: url("../resources/theme.jpg");
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-clip: content-box; */
+    background-color: rgba(0,0,0,0.9);
+
+}
+.outer-container{
+
+
+  background-size: cover;
+
+}
+  .container{
+
+text-align: center;
+justify-content:space-between;
+font-size: 30px;
+border:0.01em solid white;
+width:60%;
+margin-left: 20%;
+margin-right:20;
+background-color: rgba(0,0,0,0.6);
+color: white;
+float: left;
+  }
+
+#header{
+  margin-top: 70px;
+  color:white;
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 50px;
+}
