@@ -16,7 +16,7 @@ incase you encounter other bugs please reach out via the email i have provided.
 * CSS
 * HTML
 * Javascript
-* To get access to a live demo click this link  
+* To get access to a live demo click this link https://peter-wachira.github.io/Triangle-tracker-/
 
 ### License
 * MIT License
