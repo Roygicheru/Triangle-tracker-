@@ -1,31 +1,23 @@
-var triangle = function(sideOne, sideTwo, sideThree){
-  if (sideOne <= (sideTwo + sideThree) && sideTwo <= (sideThree + sideOne) && sideThree <= (sideOne + sideTwo)) {
-    if (sideOne===sideTwo && sideTwo===sideThree) {
-      return "equilateral";
-    } else if (sideOne===sideTwo || sideOne===sideThree || sideThree===sideTwo) {
-      return "isosceles";
-    } else {
-      return "scalene";
+
+
+ function triangle(){
+  var a = parseFloat(document.getElementById("a").value);
+  var b = parseFloat(document.getElementById("b").value);
+  var c = parseFloat(document.getElementById("c").value);
+  var sides=[a,b,c];
+  if (a <= (b + c) && b <= (c + a) && c <= (a + b) ){
+    if (a === b && b === c) {
+      alert("equilateral");
+
+     else if (a=== b || a === c || c === b) {
+      // return "isosceles";
+      alert("isoceles");
+    }
+    else( a + b > c && a + b > c && b + c > a){
+      // return "scalene";
+      alert("scalene");
     }
   } else {
-    return "These sides do not a triangle make.";
+    alert("A triangle can not be formed from these sides.");
   }
 };
-
-
-$(document).ready(function() {
-  $("form#triangle").submit(function(event) {
-
-    var sideOne = parseInt($("input#sideOne").val());
-    var sideTwo = parseInt($("input#sideTwo").val());
-    var sideThree = parseInt($("input#sideThree").val());
-    var result = triangle(sideOne, sideTwo, sideThree);
-
-    sideOne = parseInt($("input#sideOne").val(""));
-    sideTwo = parseInt($("input#sideTwo").val(""));
-    sideThree = parseInt($("input#sideThree").val(""));
-
-    $("#result").append(result);
-    event.preventDefault();
-  });
-});

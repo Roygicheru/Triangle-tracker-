@@ -14,24 +14,41 @@ html body {
     background-color: rgba(0,0,0,0.9);
 
 }
-.outer-container{
-
-
-  background-size: cover;
+#triangle-paragraph{
+  text-align: center;
+  border:0.0001em solid white;
+  width:60%;
+  margin-left: 20%;
+  margin-right:20%;
+  padding-bottom: 20px;
+  font-size: 20px;
+  background-color: rgba(0,0,0,0.6);
+  padding:25px;
+  color: gold;
+  font-style: italic;
 
 }
-  .container{
 
+.outer-container{
+  background-size: cover;
+  /* background-color: rgba(0,0,0,0.6); */
+  height: 900px;
+  width: 100%;
+}
+  .container{
+width: 70%;
+margin-left: 15%;
+margin-right: 15%;
 text-align: center;
-justify-content:space-between;
+justify-content:center;
 font-size: 30px;
 border:0.01em solid white;
-width:60%;
+/* width:60%;
 margin-left: 20%;
-margin-right:20;
+margin-right:20; */
 background-color: rgba(0,0,0,0.6);
 color: white;
-float: left;
+
   }
 
 #header{

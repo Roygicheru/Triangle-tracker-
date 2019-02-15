@@ -9,20 +9,23 @@
     <div class="outer-container">
           <section>
               <h1 id="header">Triangle Tracker</h1>
+              <div class="paragraph-container">
+                <p id="triangle-paragraph">Triangle Tracker is an web application that takes the lengths of three sides and determines if they form a valid triangle.<br> If this condition is met, the T.T returns the name of the kind of triangle the sides make i.e equilateral, isosceles or scalene.</p>
+              </div>
                 <div class="container">
                   <div style="height:30px;" class="spacer-1"></div>
                     <div class="form-div">
                       <form  id="triangle-tracker" action="index.html" method="post">
                         <div class="form-group">
-                            <label for="a">Enter side one (a) </label>
-                            <input id="a" type="text"><br>
-                            <label for="b">Enter the second side (b) </label>
-                            <input id="b" type="text"><br>
-                            <label for="c">Enter the third side (c) </label>
-                            <input id="c" type="text">
+                            <label >Side a: </label>
+                            <input id="a" type="text" placeholder="enter a "><br>
+                            <label >Side b: </label>
+                            <input id="b"placeholder="enter b" type="text"><br>
+                            <label >Side c:</label>
+                            <input id="c" placeholder="enter c" type="text">
                           </div>
                             <div style="height:30px;" class="spacer-1"></div>
-                          <button type="submit" style="height:20px; width:100px;" class="btn btn-sm btn-primary">Process</button>
+                          <button type="submit" style="height:20px; width:100px;" id="triangle()" >Process</button>
                       </form>
                   </div>
               <div style="height:30px;"class="spacer-2"></div>
