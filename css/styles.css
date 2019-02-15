@@ -18,17 +18,19 @@ html body {
   text-align: center;
   border:0.0001em solid white;
   width:60%;
-  margin-left: 20%;
+  margin-left: 18%;
   margin-right:20%;
   padding-bottom: 20px;
   font-size: 20px;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.5);
   padding:25px;
-  color: gold;
+  color: rgba(255,140,0,0.8);
   font-style: italic;
 
 }
+#a#b#c{
 
+}
 .outer-container{
   background-size: cover;
   /* background-color: rgba(0,0,0,0.6); */
@@ -46,7 +48,7 @@ border:0.01em solid white;
 /* width:60%;
 margin-left: 20%;
 margin-right:20; */
-background-color: rgba(0,0,0,0.6);
+background-color: rgba(0,0,0,0.5);
 color: white;
 
   }
@@ -57,4 +59,5 @@ color: white;
   text-align: center;
   padding-bottom: 40px;
   font-size: 50px;
+  color: rgba(255,140,0,0.9);
 }
