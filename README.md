@@ -8,7 +8,7 @@ Triangle Tracker is an web application that takes the lengths of three sides and
 
 ## Behavior Driven Development (BDD)
 | General Behavior |   Input   | Output|
-| :-------------: | :-------------: |:-------------: |
+| -------------: | -------------: |-------------: |
 | Triangle tracker determines the type of a triangle  according  to the dimensions that have been input from the text boxes| Side a, Side b and side c input boxes.  |  when the dimensions are submitted, it displays the type of the triangle| Reset functionality in case a user enters the wrong dimensions |reset button |erase the input boxes for user to input again |
 <<<<<<< HEAD
 
