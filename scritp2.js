@@ -4,16 +4,19 @@
   var a = parseInt(document.getElementById("a").value);
   var b = parseInt(document.getElementById("b").value);
   var c = parseInt(document.getElementById("c").value);
-  
+
   var sides = [a,b,c];
 
   if (sides[0] + sides[1] <= sides[2] || sides[0] + sides[2] <= sides[1] || sides[1] + sides[2] <= sides[0]){
 
      document.getElementById("answer").innerHTML = "A triangle can not be formed from these sides.";
+
   }
     else if (sides[0]===sides[1] && sides[1]===sides[2] && sides[0]===sides[2]){
 
       document.getElementById("answer").innerHTML = "Thid is an equilateral triangle. ";
+      //return "equilateral"
+
     }
      else if (sides[0]===sides[1]||sides[0]===sides[2]||sides[1]===sides[2]) {
       // return "isosceles";
