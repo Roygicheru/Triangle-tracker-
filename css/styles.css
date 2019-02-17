@@ -1,4 +1,4 @@
-
+/*
 /*
     Created on : Feb 8th, 2019, 8:39:38 PM
     Author     : Peter Wachira
@@ -11,10 +11,10 @@ html body {
     background-repeat: no-repeat;
     background-size: cover;
     /* background-clip: content-box; */
-    background-color: rgba(0,0,0,0.9);   
+    background-color: rgba(0,0,0,0.9);
 
 }
-#triangle-paragraph{
+.paragraph-container{
   text-align: center;
   border:0.0001em solid white;
   width:60%;
@@ -26,25 +26,27 @@ html body {
   padding:25px;
   color: rgba(255,140,0,0.8);
   font-style: italic;
+}
+#triangle-image{
+  float:left;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 40px;
+  clear: both;
 
 }
-#a#b#c{
-
-}
-.outer-container{
+/* .outer-container{
   background-size: cover;
-  /* background-color: rgba(0,0,0,0.6); */
-  height: 900px;
+  height: 100%;
   width: 100%;
-}
+} */
   .container{
 width: 70%;
 margin-left: 15%;
 margin-right: 15%;
 text-align: center;
-justify-content:center;
 font-size: 30px;
-border:0.01em solid white;
+border:0.01em ;
 /* width:60%;
 margin-left: 20%;
 margin-right:20; */
