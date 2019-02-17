@@ -3,7 +3,7 @@
  function triangle(){
   var a = parseInt(document.getElementById("a").value);
   var b = parseInt(document.getElementById("b").value);
-  var c = parseInt(document.getElementById("c").value);   
+  var c = parseInt(document.getElementById("c").value);
 
   var sides = [a,b,c];
 
@@ -27,7 +27,7 @@
       document.getElementById("answer").innerHTML = "invalid entry.";
   }
 
-};
+};  
 
 
 
