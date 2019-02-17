@@ -3,14 +3,17 @@
 #### Triangle tracker, February 15th 2019
 #### By **Peter Wachira**
 ## Description
-Triangle Tracker is an web application that takes the lengths of three sides and determines if they form a valid triangle.  If this condition is met, the T.T returns the name of the kind of triangle the sides make i.e equilateral, isosceles or  scalene.
+Triangle Tracker is an web application that takes the lengths of three sides and determines if they form a valid triangle.  If this condition is me.
+
+
 ##Behavior Driven Development (BDD)
 | General Behavior |   Input   | Output|
 | :-------------: | :-------------: |:-------------: |
-| Triangle tracker determines the type of a triangle  according  to the dimensions that have been input from the text boxes| Side a, Side b and side c input boxes       |  when the dimensions are submitted, it displays the type of the triangle| Reset functionality in case a user enters the wrong dimensions |reset button |erase the input boxes for user to input again|
+| Triangle tracker determines the type of a triangle  according  to the dimensions that have been input from the text boxes| Side a, Side b and side c input boxes       |  when the dimensions are submitted, it displays the type of the triangle| Reset functionality in case a user enters the wrong dimensions |reset button |erase the input boxes for user to input again |
+
 ## Setup/Installation Requirements
 * 1.Have a functional github account
-* 2.On my github profile ,select the project name (Triangle tracker)
+* 2.On my github profile ,select the project name (Triange tracker)
 * 3.fork the repository
 * 4.Access it on your github account
 ## Known Bugs
