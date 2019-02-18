@@ -9,7 +9,10 @@ Triangle Tracker is an web application that takes the lengths of three sides and
 
 | General Behavior |   Input   | Output|
 | -------------: | -------------: |-------------: |
-| User submits three values to be the same| All three dimensions equal| This is an Equilateral triangle | User keys in two values same and the third to be different | Two same dimensions and one different | This is an isosceles triangle | User keys in all three values different | three equal dimensions| This is a scalene triangle| User  doesn't type any values| Null entries and abnormal dimensions | Not triangle |
+| User submits three values to be the same| All three dimensions equal| This is an Equilateral triangle |
+| User keys in two values same and the third to be different | Two same dimensions and one different | This is an isosceles triangle |
+| User keys in all three values different | three equal dimensions| This is a scalene triangle|
+| User  doesn't type any values| Null entries and abnormal dimensions | Not triangle |
 
 
 <!-- |user submits three values to be the same |||
