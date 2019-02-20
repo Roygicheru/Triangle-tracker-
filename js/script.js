@@ -3,9 +3,9 @@
  function triangle(){
   var a = parseInt(document.getElementById("a").value);
   var b = parseInt(document.getElementById("b").value);
-  var c = parseInt(document.getElementById("c").value);   
+  var c = parseInt(document.getElementById("c").value);
 
-  var sides = [a,b,c];
+  var sides = [a,b,c];        
 
   if (sides[0] + sides[1] <= sides[2] || sides[0] + sides[2] <= sides[1] || sides[1] + sides[2] <= sides[0]){
 

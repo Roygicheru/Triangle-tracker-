@@ -3,7 +3,7 @@
 #### Triangle tracker, February 15th 2019
 #### By **Peter Wachira**
 ## Description
-Triangle Tracker is an web application that takes the lengths of three sides and determines if they form a valid triangle.  If this condition is me.      
+Triangle Tracker is an web application that takes the lengths of three sides and determines if they form a valid triangle.  If this condition is me.            
 
 
 ## Behavior Driven Development (BDD)
