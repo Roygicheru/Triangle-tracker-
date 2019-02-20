@@ -16,7 +16,7 @@ html body {
 }
 .paragraph-container{
   text-align: center;
-  border:0.0001em solid white;
+  border:0.001em solid white ;
   width:60%;
   margin-left: 18%;
   margin-right:20%;
@@ -46,12 +46,12 @@ margin-left: 15%;
 margin-right: 15%;
 text-align: center;
 font-size: 30px;
-border:0.01em ;
+border:0.001em solid white;
 /* width:60%;
 margin-left: 20%;
 margin-right:20; */
 background-color: rgba(0,0,0,0.5);
-color: white;
+color: orange;
 
   }
 
