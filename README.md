@@ -3,12 +3,8 @@
 #### Triangle tracker, February 15th 2019
 #### By **Peter Wachira**
 ## Description
-<<<<<<< HEAD
 Triangle Tracker is an web application that takes the lengths of three sides and determines if they form a valid triangle.  If this condition is me.            
 
-=======
-Triangle Tracker is an web application that takes the lengths of three sides and determines if they form a valid triangle.  If this condition is me. table        
->>>>>>> gh-pages
 
 ## Behavior Driven Development (BDD)
 
@@ -20,8 +16,6 @@ Triangle Tracker is an web application that takes the lengths of three sides and
 | User  doesn't type any values| Null entries and abnormal dimensions | Not triangle |
 
 
-<!-- |user submits three values to be the same |||
-| Triangle tracker determines the type of a triangle  according  to the dimensions that have been input from the text boxes| Side a, Side b and side c input boxes.  |  when the dimensions are submitted, it displays the type of the triangle| Reset functionality in case a user enters the wrong dimensions |reset button |erase the input boxes for user to input again | -->
 ## Setup/Installation Requirements
 * 1.Have a functional github account
 * 2.On my github profile ,select the project name (Triange tracker)
