@@ -1,42 +1,37 @@
-
-# Triangle Tracker (TT)
-#### Triangle tracker, February 15th 2019
-#### By **Peter Wachira**
+# Triangle-tracker
+#### Triangle detector,  Fri 15 Feb 2019
+#### By Roy Gicheru
 ## Description
-Triangle Tracker is an web application that takes the lengths of three sides and determines if they form a valid triangle.  If this condition is me.            
-
-
-## Behavior Driven Development (BDD)
-
-| General Behavior |   Input   | Output|
-| :-------------: | :-------------: |:-------------: |
-| User submits three values to be the same| All three dimensions equal| This is an Equilateral triangle |
-| User keys in two values same and the third to be different | Two same dimensions and one different | This is an isosceles triangle |
-| User keys in all three values different | three equal dimensions| This is a scalene triangle|
-| User  doesn't type any values| Null entries and abnormal dimensions | Not triangle |
-
-
+This is an application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all according to the user's input.It's good to note that I've assumed that a triangle is "Not A Triangle" if the sum of any two sides of the triangle is equal to or less than the third remaining side. A link to my live site is https://roygicheru.github.io/triangle-tracker/
 ## Setup/Installation Requirements
-* 1.Have a functional github account
-* 2.On my github profile ,select the project name (Triange tracker)
-* 3.fork the repository
-* 4.Access it on your github account
+* A reliable internet connection
+* LINUX UBUNTU operating system installed
+* git installed in a LINUX terminal
+* An online GIThub account
+* Atom text editor
+* A js fiddle account
+* Google chrome and ready access to It's console
+## BDD
+* The program recognises an Equilateral Triangle:
+   * Input Example: 7 7 7
+   * Output Example: It is an equilateral triangle
+* The program recognises an Isosceles Triangle:
+   * Input Example: 5 5 8
+   * Output Example: It is an isosceles triangle
+* The program recognises a Scalene Triangle:
+   * Input Example: 9 4 5
+   * Output Example: It is a scalene triangle
+* The program also recognises a Non-definite Triangle:
+   * Input Example: 1 67 5
+   * Output Example: It is not a triangle
+
 ## Known Bugs
-currently i have not encountered any bugs,incase you encounter other bugs please reach out via the email i have provided.
+No known bugs but the website is still in development.
 ## Technologies Used
-* CSS
-* HTML
-* Javascript
-* To get access to a live demo click this link https://peter-wachira.github.io/Triangle-tracker-/    
-
-### License
-* MIT License
-* Copyright (c) 2019 **Peter Wachira**
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+I employed the use of cascading, the box model and floats with creative application of images and themes using CSS. I also used JavaScript language actively.
 ## Support and contact details
-For any inquiries or contributions please contact me on gmail pwachira900@gmail.com
- licensing.
+For any queries, please feel free to contact me using my e-mail, gicheru.k.roy@gmail.com.
+### License
+MIT
+Copyright (c) 2019 Roy Gicheru.
+
